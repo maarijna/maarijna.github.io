@@ -1,0 +1,481 @@
+<!-- setup tampilan priview id card -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Isi Data - CardifyMe</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.css"
+    integrity="sha512-+VDbDxc9zesADd49pfvz7CgsOl2xREI/7gnzcdyA9XjuTxLXrdpuz21VVIqc5HPfZji2CypSbxx1lgD7BgBK5g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"
+    integrity="sha512-adgfzougYIGhG3Tpb47fZLuMwaULLJQdujqOeWFoGc7vwFvBrFkhaPkJPId5swgdr122mghL/ysQk4oiabmRCQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+    integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"
+    integrity="sha512-ooSWpxJsiXe6t4+PPjCgYmVfr1NS5QXJACcR/FPpsdm6kqG1FmQ2SVyg2RXeVuCRBLr0lWHnWJP6Zs1Efvxzww=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <!-- =======================================================
+  * Template Name: Resi - v4.6.0
+  * Template URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- <h1 class="logo"><a href="index.html">CardifyMe</a></h1> -->
+
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <!-- (ga butuh) <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+          <!-- (ga butuh) <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li> -->
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <section class="inner-page pt-5 mt-5">
+      <div class="section-title">
+        <h2>LANGKAH TERAKHIR</h2>
+          <h6>Isi data dengan lengkap, lalu submit. Violaa, id card kamu sudah jadi!</h5>
+        <br>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-7">
+            <div class="card" style="background-color:#f3f3fa;">
+              <div class="card-header text-center">
+                Desain yang dipilih
+              </div>
+              <div class="card-body text-center">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="d-flex justify-content-center">
+                      <div id="front"
+                        style="position:relative;width: 300px;height:450px;background-repeat: no-repeat;background-size:cover">
+                        <div
+                          style="position: absolute; top: 20px;left: 125px; width: 40px; height: 40px; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+                          <img id="file-foto-logo" src="assets/img/GID logo.PNG" style="width: 100%; height: auto;"
+                            alt="">
+                        </div>
+                        <div
+                          style="position: absolute; top: 80px;left: 70px; width: 150px; height: 150px; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+                          <img id="file-foto-card" src="user.jpg" style="width: 100%; height: auto;border-radius: 50%;"
+                            alt="">
+                        </div>
+                        <div
+                          style="position:absolute;top: 270px;height:40px;width: 100%;color: #5B5B5B;overflow: hidden;"
+                          class="text-center">
+                          <h1 class="m-0" id="nama_preview"
+                            style="font-family: 'Montserrat', sans-serif;font-weight: 900; font-size: 130%;">nama</h1>
+                        </div>
+                        <div style="position:absolute;top: 300px;width: 100%;" class="text-center">
+                          <h2 style="font-family: 'Montserrat', sans-serif;font-weight: 500; font-size: 90%;" class="m-0" id="jabatan_preview"> jabatan</h2>
+                        </div>
+                        <div style="position:absolute;top: 385px;width: 100%;" class="text-center">
+                          <h2 style="font-family: 'Montserrat', sans-serif;font-weight: 800; font-size: 90%; color: #5B5B5B;" id="instansi_preview">instansi</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <button id="btn-save-front" class="btn btn-primary mt-3"> Simpan </button>
+                  </div>
+                  <!-- halaman belakang -->
+                  <div class="col-md-6">
+                    <div class="d-flex justify-content-center">
+                      <div id="back"
+                        style="position:relative;width: 300px;height:450px;background-repeat: no-repeat;background-size:cover">
+                        <div
+                          style="position: absolute; top: 70px;left: 110px; width: 75px; height: 75px; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+                          <img id="file-foto-logoback" src="assets/img/GID logo.PNG" style="width: 100%; height: auto;"
+                            alt="">
+                        </div>
+                        <div
+                          style="position: absolute; top: 165px;left: 46px; width: 200px; height: 210px; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+                          <img id="qr-code" src="assets/img/qr.gif" style="width: 100%; height: auto;" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <button id="btn-save-back" class="btn btn-primary mt-3"> Simpan </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5">
+            <!-- <div class="card" style="background-color: #f3f3fa">
+              <div class="card-body">
+                <p class="card-text text-center">Upload file data jika ingin generate untuk banyak orang</p>
+                <form action="">
+                  <label for="myfile">Select a file:</label>
+                  <div class="row">
+                    <div class="col-10">
+                      <input class="form-control" type="file" id="myfile" name="myfile">
+                    </div>
+            <div class="col-2">
+              <input type="submit" class="btn btn-primary">
+            </div>
+                  </div> 
+                </form>                
+              </div>
+            </div> -->
+            <div class="card" style="background-color: #f3f3fa">
+              <div class="card-header">
+                <p class="card-text text-center">Isi data yang sesuai</p>
+              </div>
+
+              <div class="card-body">
+                <form action="">
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="nama">Nama Lengkap :</label>
+                    <div class="col-8">
+                      <input class="form-control" type="text" id="nama" name="nama">
+                    </div>
+                  </div>
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="instansi">Nama Instansi / Sekolah :</label>
+                    <div class="col-8">
+                      <input class="form-control" type="text" id="instansi" name="instansi">
+                    </div>
+                  </div>
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="jabatan">Jabatan / Pekerjaan :</label>
+                    <div class="col-8">
+                      <input class="form-control" type="text" id="jabatan" name="jabatan">
+                    </div>
+                  </div>
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="alamat">Alamat :</label>
+                    <div class="col-8">
+                      <textarea class="form-control rounded-0" id="alamat" name="alamat" rows="5"></textarea>
+                    </div>
+                  </div>
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="email">Email :</label>
+                    <div class="col-8">
+                      <input class="form-control" type="email" id="email" name="email">
+                    </div>
+                  </div>
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="tlp">Nomor Hp :</label>
+                    <div class="col-8">
+                      <input class="form-control" type="text" id="tlp" name="tlp">
+                    </div>
+                  </div>
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="tlp">Upload foto :</label>
+                    <div class="col-8">
+                      <input type="file" id="file-foto" class="form-control" accept="image/*">
+                    </div>
+                  </div>
+                  <div class="row mb-2 form-group">
+                    <label class="col-4" for="tlp">Upload logo :</label>
+                    <div class="col-8">
+                      <input type="file" id="file-logo" class="form-control" accept="image/*">
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <input id="btn-proses" type="submit" class="btn btn-primary">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>CardifyMe</h3>
+            <p>
+              Auto Generate ID Card & Certificate<br>
+              <strong>Phone:</strong> +62 811 2222 3333<br>
+              <strong>Email:</strong> dummy@mail.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>CardifyMe</span></strong>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/resi-free-bootstrap-html-template/ -->
+          <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+      </div>
+      <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div> -->
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Modal Cropper -->
+  <div class="modal fade" id="modalcropper" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-0" style="height:500px">
+          <img id="file-foto-preview" class="rounded-circle" src="" style="width: 100%; height: auto;" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" id="btn-crop" class="btn btn-primary">Simpan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    if (typeof (Storage) !== "undefined") {
+      document.getElementById("btn-save-front").disabled = true;
+      document.getElementById("btn-save-back").disabled = true;
+
+      $("#file-foto").change(function (event) {
+        if (event.target.files.length > 0) {
+          var src = URL.createObjectURL(event.target.files[0]);
+          var preview = document.getElementById("file-foto-preview");
+          preview.src = src;
+          var image = preview;
+          $('#modalcropper').modal({
+            keyboard: false,
+            backdrop: 'static',
+          });
+          $('#modalcropper').modal('show');
+          const imgCropper = preview
+          let cropper
+          // crop image
+          $('#btn-crop').click(() => {
+            if (cropper) {
+              const cropedCanvas = cropper.getCroppedCanvas().toDataURL("image/png")
+              $("#file-foto-card").attr("src", cropedCanvas)
+              $("#modalcropper").modal('hide')
+            }
+          });
+          // setup cropped image
+          $('#modalcropper').on('shown.bs.modal', () => {
+            cropper = new Cropper(imgCropper, {
+              viewMode: 2,
+              aspectRatio: 1 / 1
+            })
+          }).on('hidden.bs.modal', () => cropper.destroy()); //destroy on close
+
+        }
+      })
+
+      $("#file-logo").change(function (event) {
+        if (event.target.files.length > 0) {
+          var srclogo = URL.createObjectURL(event.target.files[0]);
+          var preview_logo = document.getElementById("file-foto-logo");
+          preview_logo.src = srclogo;
+          var preview_logoback = document.getElementById("file-foto-logoback");
+          preview_logoback.src = srclogo;
+        }
+      })
+
+      $(document).ready(function () {
+        var id;
+        var front;
+        var back;
+        id = localStorage.getItem('temp_id');
+        front = 'desain/id/' + id + '.jpg';
+        back = 'desain/id/' + id + '-back.jpg';
+        $('#front').css('background-image', 'url(' + front + ')');
+        $('#back').css('background-image', 'url(' + back + ')');
+        // preview nama
+        $("#nama").keyup(function () {
+          $('#nama_preview').text($("#nama").val());
+        });
+        // preview jabatan
+        $("#jabatan").keyup(function () {
+          $('#jabatan_preview').text($("#jabatan").val());
+        });
+        // preview instansi
+        $("#instansi").keyup(function () {
+          $('#instansi_preview').text($("#instansi").val());
+        });
+
+        $(document).on("click", "#btn-proses", function (event) {
+          event.preventDefault();
+          var data = `BEGIN:VCARD
+VERSION:3.0
+FN:${$( "#nama" ).val()}
+EMAIL;WORK;INTERNET:${$( "#email" ).val()}
+TITLE:${$( "#jabatan" ).val()}
+ORG:${$( "#instansi" ).val()}
+TEL;TYPE=HOME,VOICE:${$( "#tlp" ).val()}
+ADR;TYPE=WORK,PREF:${$( "#alamat" ).val()}
+END:VCARD`;
+          var encoded = `chs=300x300&cht=qr&chl=${encodeURIComponent(data)}&choe=UTF-8`;
+          var urlPost = `https://chart.googleapis.com/chart?${encoded}`;
+          $.ajax({
+            url: urlPost,
+            success: function (result) {
+              urltoFile(urlPost)
+                .then(function (file) {
+                  const reader = new FileReader();
+                  reader.onloadend = () => {
+                    $('#qr-code').attr('src', reader.result);
+                  };
+                  reader.readAsDataURL(file);
+                });
+                document.getElementById("btn-save-front").disabled = false;
+                document.getElementById("btn-save-back").disabled = false;
+            }
+          });
+
+          function urltoFile(url, filename, mimeType) {
+            return (fetch(url)
+              .then(function (res) {
+                return res.arrayBuffer();
+              })
+              .then(function (buf) {
+                return new File([buf], filename, {
+                  type: mimeType
+                });
+              })
+            );
+          }
+        })
+        $(document).on("click", "#btn-save-front", function (event) {
+          event.preventDefault();
+          html2canvas($("#front")[0],{allowTaint : true,}).then((canvas) => {
+            saveAs(canvas.toDataURL(), $("#nama").val() + '-front.png');
+          });
+        });
+        $(document).on("click", "#btn-save-back", function (event) {
+          event.preventDefault();
+          html2canvas($("#back")[0],{allowTaint : true,}).then((canvas) => {
+            saveAs(canvas.toDataURL(), $("#nama").val() + '-back.png');
+          });
+        });
+
+        function saveAs(uri, filename) {
+          var link = document.createElement('a');
+          if (typeof link.download === 'string') {
+            link.href = uri;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          } else {
+            window.open(uri);
+          }
+        }
+      });
+    } else {
+      console.log("browser tidak mendukung local storage")
+    }
+  </script>
+
+  <!-- Cropper JS -->
+</body>
+
+</html>
